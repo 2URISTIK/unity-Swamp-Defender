@@ -8,11 +8,12 @@ public class EnemyAI : MonoBehaviour
     Transform target;
     NavMeshAgent agent;
     public float LookRadius;
-    public Animator ani;
+    private Animator ani;
     private void Start()
     {
         agent=GetComponent<NavMeshAgent>();
-        target=PlayerManager.instance.player.transform;
+        ani = GetComponent<Animator>();
+        target =PlayerManager.instance.player.transform;
     }
     private void FixedUpdate()
     {
