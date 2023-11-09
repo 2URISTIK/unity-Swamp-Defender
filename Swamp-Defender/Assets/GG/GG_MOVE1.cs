@@ -2,14 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GG_MOVE1 : MonoBehaviour
 {
+    private float SpeedKick;
     private int Health, Stamina;
     private int[] Hits;
+    private Ability[] Skills;
     float Ver, Hor, Jump,mouseX,xRotation,FB,LR;
     bool isGround;
     public float Speed = 10, JumpSpeed = 200,mouseSens=100f;
@@ -24,11 +27,14 @@ public class GG_MOVE1 : MonoBehaviour
     }
     private void Start()
     {
+        
         Ani=GetComponent<Animator>();
         Health = 100;
         Stamina = 100;
         Hits = new int[3];
         Hits[0] = -10; Hits[1] = -20; Hits[2] = -30;
+        SpeedKick = 1;
+        Skills = new Ability[6];
     }
     private void OnCollisionStay(Collision collision)
     {
@@ -60,6 +66,24 @@ public class GG_MOVE1 : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(transform.up * Jump, ForceMode.Impulse);
            
         } transform.Translate(new Vector3(Hor, 0, Ver));
+        //Ani.SetFloat("Kick", Input.GetAxis("Fire1"));
+        if (Input.GetAxis("Fire1")>0)
+        {
+            Ani.SetBool("Fight", true);
+            Ani.SetFloat("Kick", 1);
+            if(Ani.GetBool("Fight"))
+            {
+                Ani.SetFloat("Kick", 2);
+            }
+        }
+        else { Ani.SetFloat("Kick", 0); Ani.SetBool("Fight", false); }
+
+        if (Input.GetKeyDown("space"))
+        {
+            Ability s = new Ability(10, 1);
+            ActiveSkills(s);
+        }
+
     }
     public void OnHit(int i)
     {
@@ -68,6 +92,14 @@ public class GG_MOVE1 : MonoBehaviour
         if (Health <= 0)
         {
             SceneManager.LoadScene(0);
+        }
+    }
+    private void ActiveSkills(Ability skil)
+    {
+        if (skil.Gettype() == 1)
+        {
+            SpeedKick += skil.Getboost();
+            Ani.SetFloat("SpeedPunc1", SpeedKick);
         }
     }
 }
