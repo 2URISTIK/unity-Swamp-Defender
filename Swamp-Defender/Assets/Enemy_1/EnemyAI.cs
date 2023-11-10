@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -9,8 +10,10 @@ public class EnemyAI : MonoBehaviour
     NavMeshAgent agent;
     public float LookRadius;
     private Animator ani;
+    private int Health;
     private void Start()
     {
+        Health = 100;
         agent=GetComponent<NavMeshAgent>();
         ani = GetComponent<Animator>();
         target =PlayerManager.instance.player.transform;
@@ -45,6 +48,19 @@ public class EnemyAI : MonoBehaviour
         Vector3 direction = (target.position-transform.position).normalized;
         Quaternion look = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, look, Time.deltaTime);
+    }
+    private void SetHealth(int h)
+    {
+        Health -= h;
+    }
+    public void OnHit(int i)
+    {
+        Debug.Log(Health);
+        SetHealth(i);
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
 

@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 public class GG_MOVE1 : MonoBehaviour
 {
     private float SpeedKick;
-    private int Health, Stamina;
+    private int Health, Stamina,Force;
     private int[] Hits;
     private Ability[] Skills;
     float Ver, Hor, Jump,mouseX,xRotation,FB,LR;
@@ -25,12 +25,21 @@ public class GG_MOVE1 : MonoBehaviour
     {
         Stamina = Stamina + bonus;
     }
+    public void SetForce(int bonus)
+    {
+        Force = Force + bonus;
+    }
+    public int GetForce()
+    {
+        return Force;
+    }
     private void Start()
     {
         
         Ani=GetComponent<Animator>();
         Health = 100;
         Stamina = 100;
+        Force = 30;
         Hits = new int[3];
         Hits[0] = -10; Hits[1] = -20; Hits[2] = -30;
         SpeedKick = 1;
@@ -88,12 +97,12 @@ public class GG_MOVE1 : MonoBehaviour
     public void OnHit(int i)
     {
         SetHealth(Hits[i]);
-        Debug.Log(Health);
         if (Health <= 0)
         {
             SceneManager.LoadScene(0);
         }
     }
+    
     private void ActiveSkills(Ability skil)
     {
         if (skil.Gettype() == 1)
