@@ -17,16 +17,37 @@ public class EnemyAI1 : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        Debug.Log(ani.GetBool("IsRun")+";"+ ani.GetBool("IsFight")+";"+ ani.GetBool("PickUp")+";"+ ani.GetBool("Raise"));
         float distance = Vector3.Distance(target.position, transform.position);
         if (distance <= LookRadius)
         {
-            ani.SetBool("IsRun", true);
-            agent.SetDestination(target.position);
+            //ani.SetBool("IsRun", true);
+            //ani.SetBool("IsFight", false);
+            if (ani.GetBool("IsRun")==true)
+            {
+                agent.SetDestination(target.position);
+                LookTarget();
+            }
             if (distance <= agent.stoppingDistance)
             {
-                ani.SetBool("IsFight", true);
                 ani.SetBool("IsRun", false);
-                LookTarget();
+                ani.SetBool("IsFight", true);
+                if (ani.GetBool("IsFight"))
+                {
+                    if (ani.GetBool("Rock") == false)
+                    {
+                        ani.SetBool("PickUp", true);
+                        ani.SetBool("Raise", false);
+                        ani.SetBool("Rock", true);
+                    }
+                    else
+                    {
+                        LookTarget();
+                        ani.SetBool("PickUp", false);
+                        ani.SetBool("Raise", true);
+                        ani.SetBool("Rock", false);
+                    }
+                }             
             }
             else
             {

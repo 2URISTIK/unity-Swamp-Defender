@@ -6,7 +6,6 @@ public class HitManager : MonoBehaviour
 {    
     private void OnTriggerEnter(Collider collision)
     {
-        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name.ToString()=="Body")
         {
             if (transform.root.GetComponent<Animator>().GetBool("IsFight") == true && transform.root.GetComponent<Animator>().GetBool("IsRun") == false)

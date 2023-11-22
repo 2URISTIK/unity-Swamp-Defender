@@ -55,7 +55,6 @@ public class EnemyAI : MonoBehaviour
     }
     public void OnHit(int i)
     {
-        Debug.Log(Health);
         SetHealth(i);
         if (Health <= 0)
         {
