@@ -58,6 +58,7 @@ public class EnemyAI : MonoBehaviour
         SetHealth(i);
         if (Health <= 0)
         {
+            ani.SetTrigger("Die");
             Destroy(gameObject);
         }
     }
