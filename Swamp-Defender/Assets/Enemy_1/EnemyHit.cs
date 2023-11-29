@@ -9,7 +9,9 @@ public class EnemyHit : MonoBehaviour
         if (collision.gameObject.name.ToString() == "LHand" || collision.gameObject.name.ToString() == "RHand")
         {
             if (collision.gameObject.transform.root.GetComponent<Animator>().GetBool("Fight") == true)
-            { transform.root.GetComponent<EnemyAI>().OnHit(collision.gameObject.transform.root.GetComponent<GG_MOVE1>().GetForce()); }
+            { transform.root.GetComponent<EnemyAI>().OnHit(collision.gameObject.transform.root.GetComponent<GG_MOVE1>().GetForce());
+                Debug.Log("Hit");
+            }
         }
     }
 }

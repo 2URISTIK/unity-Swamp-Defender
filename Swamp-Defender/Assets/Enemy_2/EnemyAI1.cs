@@ -17,7 +17,7 @@ public class EnemyAI1 : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Debug.Log(ani.GetBool("IsRun")+";"+ ani.GetBool("IsFight")+";"+ ani.GetBool("PickUp")+";"+ ani.GetBool("Raise"));
+       // Debug.Log(ani.GetBool("IsRun")+";"+ ani.GetBool("IsFight")+";"+ ani.GetBool("PickUp")+";"+ ani.GetBool("Raise"));
         float distance = Vector3.Distance(target.position, transform.position);
         if (distance <= LookRadius)
         {
