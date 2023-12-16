@@ -15,7 +15,11 @@ C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-De
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 1912
+=======
+1707
+>>>>>>> Stashed changes
 Successfully changed project path to: C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-Defender
 C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-Defender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +51,19 @@ C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-De
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [15980] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 962567724 [EditorId] 962567724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [15980] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 962567724 [EditorId] 962567724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 23.55 ms, found 3 plugins.
+=======
+Player connection [4188] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 2796878387 [EditorId] 2796878387 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4188] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 2796878387 [EditorId] 2796878387 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 24.07 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,6 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -79,21 +92,44 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (357ms)
 		BeginReloadAssembly (143ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029197 seconds.
+- Loaded All Assemblies, in  0.572 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (357ms)
+		BeginReloadAssembly (145ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
+<<<<<<< Updated upstream
 			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (195ms)
 				TypeCache.Initialize (194ms)
 					TypeCache.ScanAssembly (192ms)
+=======
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+				TypeCache.Initialize (189ms)
+					TypeCache.ScanAssembly (188ms)
+>>>>>>> Stashed changes
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
+<<<<<<< Updated upstream
 			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
@@ -102,6 +138,16 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (219ms)
 				ProcessInitializeOnLoadMethodAttributes (77ms)
+=======
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,6 +157,7 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\unity-Swamp-Defender-main\Swamp-Defender\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\unity-Swamp-Defender-main\Swamp-Defender\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.173 seconds
 Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
@@ -119,21 +166,41 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (375ms)
 		BeginReloadAssembly (211ms)
+=======
+- Loaded All Assemblies, in  1.174 seconds
+Refreshing native plugins compatible for Editor in 9.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (378ms)
+		BeginReloadAssembly (212ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
+<<<<<<< Updated upstream
 		LoadAllAssembliesAndSetupDomain (786ms)
 			LoadAssemblies (164ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (713ms)
 				TypeCache.Initialize (440ms)
 					TypeCache.ScanAssembly (435ms)
+=======
+		LoadAllAssembliesAndSetupDomain (785ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (712ms)
+				TypeCache.Initialize (441ms)
+					TypeCache.ScanAssembly (436ms)
+>>>>>>> Stashed changes
 				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
+<<<<<<< Updated upstream
 			SetupLoadedEditorAssemblies (626ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
@@ -142,17 +209,36 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (127ms)
 				ProcessInitializeOnLoadAttributes (407ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
+=======
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (26ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 9.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (68.8 KB). Loaded Objects now: 3967.
 Memory consumption went from 0.54 GB to 0.54 GB.
 Total: 4.518700 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.223800 ms MarkObjects: 3.778900 ms  DeleteObjects: 0.135400 ms)
+=======
+Refreshing native plugins compatible for Editor in 9.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3431 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (68.8 KB). Loaded Objects now: 3913.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 4.410800 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.214100 ms MarkObjects: 3.716600 ms  DeleteObjects: 0.124300 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,6 +253,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 758.069796 seconds.
   path: Assets/Scenes/main1.unity
   artifactKey: Guid(209c8c1951128b040ac2f8c65f97f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -185,6 +272,22 @@ Number of asset objects unloaded after import = 186
 ========================================================================
 Received Import Request.
   Time since last request: 10.095457 seconds.
+=======
+  Time since last request: 451.253213 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(ba6de69e868c55344a13dd9fb59c33a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/New Terrain 1.asset using Guid(ba6de69e868c55344a13dd9fb59c33a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree OakTree-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree BirchTree-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rock-2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree grass01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '8762621b0e133b8544dcc6ed19353aec') in 0.139584 seconds 
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+>>>>>>> Stashed changes
   path: Assets/New Terrain.asset
   artifactKey: Guid(0679cfb4996fc984ca61df8be2318f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
@@ -194,5 +297,9 @@ The tree Grass-1 must use the Nature/Soft Occlusion shader. Otherwise billboardi
 The tree Rock-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Rock-2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Bush-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+<<<<<<< Updated upstream
  -> (artifact id: 'f17c7be39cadb44abca231b9c4d3c12c') in 0.099412 seconds 
+=======
+ -> (artifact id: 'f20173fe38d29c49cc47484bfd106de8') in 0.047227 seconds 
+>>>>>>> Stashed changes
 Number of asset objects unloaded after import = 68
