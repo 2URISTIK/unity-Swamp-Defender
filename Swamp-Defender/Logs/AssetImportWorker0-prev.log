@@ -15,7 +15,7 @@ C:/Users/mokin/Desktop/Unity/Игра/unity-Swamp-Defender/Swamp-Defender
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54975
+57671
 Successfully changed project path to: C:/Users/mokin/Desktop/Unity/Игра/unity-Swamp-Defender/Swamp-Defender
 C:/Users/mokin/Desktop/Unity/Игра/unity-Swamp-Defender/Swamp-Defender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/mokin/Desktop/Unity/Игра/unity-Swamp-Defender/Swamp-Defender
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7524] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3028337624 [EditorId] 3028337624 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GG5K3BH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20180] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2008544559 [EditorId] 2008544559 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GG5K3BH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7524] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3028337624 [EditorId] 3028337624 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GG5K3BH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20180] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2008544559 [EditorId] 2008544559 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GG5K3BH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 22.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 25.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.025919 seconds.
-- Loaded All Assemblies, in  0.622 seconds
+Registered in 0.028070 seconds.
+- Loaded All Assemblies, in  0.641 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.483 seconds
+- Finished resetting the current domain, in  0.481 seconds
 Domain Reload Profiling:
-	ReloadAssembly (390ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (400ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (156ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
-				TypeCache.Initialize (209ms)
-					TypeCache.ScanAssembly (207ms)
+			SetupTypeCache (218ms)
+				TypeCache.Initialize (217ms)
+					TypeCache.ScanAssembly (215ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (381ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\mokin\Desktop\Unity\Игра\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\mokin\Desktop\Unity\Игра\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.322 seconds
-Refreshing native plugins compatible for Editor in 8.92 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.312 seconds
+Refreshing native plugins compatible for Editor in 9.14 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.956 seconds
+- Finished resetting the current domain, in  0.983 seconds
 Domain Reload Profiling:
-	ReloadAssembly (415ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (419ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		LoadAllAssembliesAndSetupDomain (897ms)
-			LoadAssemblies (184ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (883ms)
+			LoadAssemblies (187ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (821ms)
-				TypeCache.Initialize (510ms)
-					TypeCache.ScanAssembly (504ms)
+			SetupTypeCache (805ms)
+				TypeCache.Initialize (499ms)
+					TypeCache.ScanAssembly (493ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (692ms)
+			SetupLoadedEditorAssemblies (714ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (14ms)
+				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
-Refreshing native plugins compatible for Editor in 9.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3429 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (68.6 KB). Loaded Objects now: 3907.
+Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (68.5 KB). Loaded Objects now: 3912.
 Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 5.112100 ms (FindLiveObjects: 0.444000 ms CreateObjectMapping: 0.273600 ms MarkObjects: 4.252300 ms  DeleteObjects: 0.140300 ms)
+Total: 5.177000 ms (FindLiveObjects: 0.421500 ms CreateObjectMapping: 0.245500 ms MarkObjects: 4.368000 ms  DeleteObjects: 0.140400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,299 +167,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14986.931146 seconds.
-  path: Assets/shrek/Shrek/Walking.fbx
-  artifactKey: Guid(0415d0c01b1c7c345a6f379e60cc8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 9111.017096 seconds.
+  path: Assets/ScriptInventory/Apple.asset
+  artifactKey: Guid(6e57aa5e7e3bda24ab217ca5fca026b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Walking.fbx using Guid(0415d0c01b1c7c345a6f379e60cc8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b5b986875092437ee79aff0e01b0a8') in 0.441659 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 95.156937 seconds.
-  path: Assets/shrek
-  artifactKey: Guid(e75ba1cba1d3c7f4aae439b21def7e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek using Guid(e75ba1cba1d3c7f4aae439b21def7e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea84444c2df4be334eb5e2a70aa969e') in 0.003295 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 30.298535 seconds.
-  path: Assets/shrek/Shrek v 2
-  artifactKey: Guid(52ce253d6acd5344eb6838be66df6a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2 using Guid(52ce253d6acd5344eb6838be66df6a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdeae22cbd8095b1f32bfd39f2814df3') in 0.003227 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.303095 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Dying.fbx
-  artifactKey: Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Dying.fbx using Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d773373bdad7ea968f21ada72ce895e') in 0.131377 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Running (1).fbx
-  artifactKey: Guid(d49891f16a4af0e49a26aa3c61783ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Running (1).fbx using Guid(d49891f16a4af0e49a26aa3c61783ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487f359a1f950e70c9faa00bf5e06560') in 0.104024 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Standing Melee Attack Downward.fbx
-  artifactKey: Guid(040285944e17c374bace106192b33c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Standing Melee Attack Downward.fbx using Guid(040285944e17c374bace106192b33c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f345c2f333e23904bc7bbfc3b59b5be1') in 0.069697 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Hurricane Kick.fbx
-  artifactKey: Guid(84eba09541d9a44459e2b80f279a2cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Hurricane Kick.fbx using Guid(84eba09541d9a44459e2b80f279a2cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61565261492eb655e44716cfa3a33443') in 0.075688 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Hard Landing.fbx
-  artifactKey: Guid(949c44e2f8c59184da158fc66d07abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Hard Landing.fbx using Guid(949c44e2f8c59184da158fc66d07abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2bc424c85da51bcd6c6f4c4a13383d') in 0.077397 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Standing Melee Run Jump Attack.fbx
-  artifactKey: Guid(5b3f47f4059a747409225e6dad4e6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Standing Melee Run Jump Attack.fbx using Guid(5b3f47f4059a747409225e6dad4e6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a138ed116b10e8500247a73051914a9') in 0.079474 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Jog Strafe Left.fbx
-  artifactKey: Guid(858e0720475530c4598fb7b6de600820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Jog Strafe Left.fbx using Guid(858e0720475530c4598fb7b6de600820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dcd32c53100215fae74ce4bbda0f30') in 0.104110 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Jog Strafe Right.fbx
-  artifactKey: Guid(e34ae132f35bd70479c43d271f623d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Jog Strafe Right.fbx using Guid(e34ae132f35bd70479c43d271f623d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ddf70d1169295010520733531e0082') in 0.071500 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Running.fbx
-  artifactKey: Guid(4fc1381bd688bd141a278c322de4a28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Running.fbx using Guid(4fc1381bd688bd141a278c322de4a28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18e8bfd7adedaf0a1149ffdd432e2e3') in 0.075584 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Unarmed Run Back.fbx
-  artifactKey: Guid(9aabad02a0dc02f4583c1099fbc3c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Unarmed Run Back.fbx using Guid(9aabad02a0dc02f4583c1099fbc3c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a918a9d19afcdc546bf20dd4fe6332c2') in 0.069947 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Running Backward.fbx
-  artifactKey: Guid(ddfeefd2ad7c3d9448d10cb56d577f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Running Backward.fbx using Guid(ddfeefd2ad7c3d9448d10cb56d577f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e896d5c7ada4b7c2cd920b5ea725c62') in 0.071794 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 20.439853 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Dying.fbx
-  artifactKey: Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Dying.fbx using Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc680789188870533e53e2ee63e1b15') in 0.123855 seconds 
-Number of asset objects unloaded after import = 294
-========================================================================
-Received Import Request.
-  Time since last request: 3.835936 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Dying.fbx
-  artifactKey: Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Dying.fbx using Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc765b3b0fe88e5d3392f26ab5d3d51a') in 0.126504 seconds 
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 30.437756 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Dying.fbx
-  artifactKey: Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Dying.fbx using Guid(242057fda2e174b4fa416c8fb044fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f818ad171f79985d96e85477d620671') in 0.128556 seconds 
-Number of asset objects unloaded after import = 294
-========================================================================
-Received Import Request.
-  Time since last request: 15.860293 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Hard Landing.fbx
-  artifactKey: Guid(949c44e2f8c59184da158fc66d07abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Hard Landing.fbx using Guid(949c44e2f8c59184da158fc66d07abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f4a476aca85b0f12553c93e949567e') in 0.136252 seconds 
-Number of asset objects unloaded after import = 294
-========================================================================
-Received Import Request.
-  Time since last request: 5.191192 seconds.
-  path: Assets/shrek/Shrek v 2/Walking@Hard Landing.fbx
-  artifactKey: Guid(949c44e2f8c59184da158fc66d07abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek v 2/Walking@Hard Landing.fbx using Guid(949c44e2f8c59184da158fc66d07abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3610fdc5e25fc78828b90b02fa84de') in 0.097430 seconds 
-Number of asset objects unloaded after import = 294
-========================================================================
-Received Import Request.
-  Time since last request: 6218.651344 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Dying.fbx
-  artifactKey: Guid(f8084c8dba3dfdc45bf2575b8336964e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Dying.fbx using Guid(f8084c8dba3dfdc45bf2575b8336964e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64a5efe575f633dc98eef2d4c7bb324') in 0.425908 seconds 
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Hurricane Kick.fbx
-  artifactKey: Guid(252626f444810094f9dc0761416ab722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Hurricane Kick.fbx using Guid(252626f444810094f9dc0761416ab722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175cbe4432be26b01f3436b249e1938') in 0.110228 seconds 
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Standing Melee Run Jump Attack.fbx
-  artifactKey: Guid(a37e3e2ac32d59b48855ead8e571eab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Standing Melee Run Jump Attack.fbx using Guid(a37e3e2ac32d59b48855ead8e571eab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe05a554602bdbffe0a0863de7cd209') in 0.081742 seconds 
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Zombie Scream.fbx
-  artifactKey: Guid(720f0f4c9c441b84e8248ca62b5b06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Zombie Scream.fbx using Guid(720f0f4c9c441b84e8248ca62b5b06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ece775bcb98ac300908223b41e7010') in 0.191761 seconds 
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Mutant Dying.fbx
-  artifactKey: Guid(b79997ecd57b16a4ca4554f78f66d782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Mutant Dying.fbx using Guid(b79997ecd57b16a4ca4554f78f66d782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7462db23e5164df0d66195bf9ab7e436') in 0.082958 seconds 
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 18.458639 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Dying.fbx
-  artifactKey: Guid(f8084c8dba3dfdc45bf2575b8336964e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Dying.fbx using Guid(f8084c8dba3dfdc45bf2575b8336964e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81830163c7a00ccf6d482aa5f770aa59') in 0.124795 seconds 
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 25.389957 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Hurricane Kick.fbx
-  artifactKey: Guid(252626f444810094f9dc0761416ab722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Hurricane Kick.fbx using Guid(252626f444810094f9dc0761416ab722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52afdaf96ba8513e31d1cbfe10cbb2d2') in 0.127252 seconds 
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 27.762764 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Mutant Dying.fbx
-  artifactKey: Guid(b79997ecd57b16a4ca4554f78f66d782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Mutant Dying.fbx using Guid(b79997ecd57b16a4ca4554f78f66d782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d8f61c77fc0c314678772a25f48b1e') in 0.108841 seconds 
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 74.995008 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Running.fbx
-  artifactKey: Guid(a250da9300bc0654f9b77cedfc9416a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Running.fbx using Guid(a250da9300bc0654f9b77cedfc9416a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e6c1b48c437b452657d3b5ee6ce05f') in 0.120833 seconds 
-Number of asset objects unloaded after import = 159
-========================================================================
-Received Import Request.
-  Time since last request: 15.215846 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Standing Melee Run Jump Attack.fbx
-  artifactKey: Guid(a37e3e2ac32d59b48855ead8e571eab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Standing Melee Run Jump Attack.fbx using Guid(a37e3e2ac32d59b48855ead8e571eab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42531d797fe94aa466dfef97e7641cd2') in 0.106283 seconds 
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 37.931987 seconds.
-  path: Assets/shrek/Shrek/Shrek Forever After - Shrek@Zombie Scream.fbx
-  artifactKey: Guid(720f0f4c9c441b84e8248ca62b5b06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/shrek/Shrek/Shrek Forever After - Shrek@Zombie Scream.fbx using Guid(720f0f4c9c441b84e8248ca62b5b06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a00a34a34100584de73f4637380c56') in 0.110915 seconds 
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\mokin\Desktop\Unity\Игра\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\mokin\Desktop\Unity\Игра\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.473 seconds
-Refreshing native plugins compatible for Editor in 9.46 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.797 seconds
-Domain Reload Profiling:
-	ReloadAssembly (515ms)
-		BeginReloadAssembly (364ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		LoadAllAssembliesAndSetupDomain (948ms)
-			LoadAssemblies (201ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (874ms)
-				TypeCache.Initialize (553ms)
-					TypeCache.ScanAssembly (509ms)
-				ResolveRequiredComponents (7ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (661ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (14ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 8.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (34.9 KB). Loaded Objects now: 3955.
-Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 23.953100 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.240100 ms MarkObjects: 23.292500 ms  DeleteObjects: 0.052000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/ScriptInventory/Apple.asset using Guid(6e57aa5e7e3bda24ab217ca5fca026b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4179f955a86ffb83355bbad4966b7c') in 0.040115 seconds 
+Number of asset objects unloaded after import = 1
