@@ -1,27 +1,23 @@
 Using pre-set license
 Built from '2022.2/release' branch; Version is '2022.2.1f1 (4fead5835099) revision 5237461'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32754 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 8175 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.2.1f1\Editor\Unity.exe
+F:\Unity Hub\2022.2.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-Defender
+F:/swamp/unity-Swamp-Defender/Swamp-Defender
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< Updated upstream
-1912
-=======
-1707
->>>>>>> Stashed changes
-Successfully changed project path to: C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-Defender
-C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-Defender
+49822
+Successfully changed project path to: F:/swamp/unity-Swamp-Defender/Swamp-Defender
+F:/swamp/unity-Swamp-Defender/Swamp-Defender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -51,103 +47,61 @@ C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-De
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< Updated upstream
-Player connection [15980] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 962567724 [EditorId] 962567724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12480] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4042013441 [EditorId] 4042013441 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-72INNLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15980] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 962567724 [EditorId] 962567724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12480] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4042013441 [EditorId] 4042013441 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-72INNLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 23.55 ms, found 3 plugins.
-=======
-Player connection [4188] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 2796878387 [EditorId] 2796878387 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [4188] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 2796878387 [EditorId] 2796878387 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DF8069A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 24.07 ms, found 3 plugins.
->>>>>>> Stashed changes
+Refreshing native plugins compatible for Editor in 12.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GitHub/unity-Swamp-Defender-main/Swamp-Defender/unity-Swamp-Defender/Swamp-Defender/Assets
+[Subsystems] Discovering subsystems at path F:/Unity Hub/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/swamp/unity-Swamp-Defender/Swamp-Defender/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
-    Vendor:   ATI
-    VRAM:     8147 MB
-    Driver:   31.0.22023.1014
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     983 MB
+    Driver:   31.0.15.3623
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<< Updated upstream
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Mono path[0] = 'F:/Unity Hub/2022.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity Hub/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity Hub/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.028873 seconds.
-- Loaded All Assemblies, in  0.577 seconds
+Register platform support module: F:/Unity Hub/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009508 seconds.
+- Loaded All Assemblies, in  0.671 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.422 seconds
+- Finished resetting the current domain, in  0.632 seconds
 Domain Reload Profiling:
-	ReloadAssembly (357ms)
-		BeginReloadAssembly (143ms)
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029197 seconds.
-- Loaded All Assemblies, in  0.572 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.420 seconds
-Domain Reload Profiling:
-	ReloadAssembly (357ms)
-		BeginReloadAssembly (145ms)
->>>>>>> Stashed changes
+	ReloadAssembly (347ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-<<<<<<< Updated upstream
-			LoadAssemblies (136ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
-				TypeCache.Initialize (194ms)
-					TypeCache.ScanAssembly (192ms)
-=======
-			LoadAssemblies (138ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-				TypeCache.Initialize (189ms)
-					TypeCache.ScanAssembly (188ms)
->>>>>>> Stashed changes
+			SetupTypeCache (319ms)
+				TypeCache.Initialize (318ms)
+					TypeCache.ScanAssembly (316ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-<<<<<<< Updated upstream
-			SetupLoadedEditorAssemblies (331ms)
+			SetupLoadedEditorAssemblies (513ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (12ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (18ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
-=======
-			SetupLoadedEditorAssemblies (328ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (11ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
->>>>>>> Stashed changes
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -155,90 +109,50 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GitHub\unity-Swamp-Defender-main\Swamp-Defender\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\GitHub\unity-Swamp-Defender-main\Swamp-Defender\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-<<<<<<< Updated upstream
-- Loaded All Assemblies, in  1.173 seconds
-Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image F:\swamp\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\swamp\unity-Swamp-Defender\Swamp-Defender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.669 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.858 seconds
+- Finished resetting the current domain, in  1.265 seconds
 Domain Reload Profiling:
-	ReloadAssembly (375ms)
-		BeginReloadAssembly (211ms)
-=======
-- Loaded All Assemblies, in  1.174 seconds
-Refreshing native plugins compatible for Editor in 9.40 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
-Domain Reload Profiling:
-	ReloadAssembly (378ms)
-		BeginReloadAssembly (212ms)
->>>>>>> Stashed changes
+	ReloadAssembly (454ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-<<<<<<< Updated upstream
-		LoadAllAssembliesAndSetupDomain (786ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (1214ms)
+			LoadAssemblies (188ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (713ms)
-				TypeCache.Initialize (440ms)
-					TypeCache.ScanAssembly (435ms)
-=======
-		LoadAllAssembliesAndSetupDomain (785ms)
-			LoadAssemblies (164ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (712ms)
-				TypeCache.Initialize (441ms)
-					TypeCache.ScanAssembly (436ms)
->>>>>>> Stashed changes
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (1145ms)
+				TypeCache.Initialize (688ms)
+					TypeCache.ScanAssembly (679ms)
+				ResolveRequiredComponents (15ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-<<<<<<< Updated upstream
-			SetupLoadedEditorAssemblies (626ms)
+			SetupLoadedEditorAssemblies (902ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (20ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-=======
-			SetupLoadedEditorAssemblies (618ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (12ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (398ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
->>>>>>> Stashed changes
-				AfterProcessingInitializeOnLoad (26ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (627ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-<<<<<<< Updated upstream
-Refreshing native plugins compatible for Editor in 9.56 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (68.8 KB). Loaded Objects now: 3967.
+Unloading 26 unused Assets / (68.4 KB). Loaded Objects now: 3963.
 Memory consumption went from 0.54 GB to 0.54 GB.
-Total: 4.518700 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.223800 ms MarkObjects: 3.778900 ms  DeleteObjects: 0.135400 ms)
-=======
-Refreshing native plugins compatible for Editor in 9.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3431 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (68.8 KB). Loaded Objects now: 3913.
-Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 4.410800 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.214100 ms MarkObjects: 3.716600 ms  DeleteObjects: 0.124300 ms)
->>>>>>> Stashed changes
+Total: 7.082000 ms (FindLiveObjects: 0.418100 ms CreateObjectMapping: 0.222400 ms MarkObjects: 6.265900 ms  DeleteObjects: 0.171900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -253,27 +167,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< Updated upstream
-  Time since last request: 758.069796 seconds.
-  path: Assets/Scenes/main1.unity
-  artifactKey: Guid(209c8c1951128b040ac2f8c65f97f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/main1.unity using Guid(209c8c1951128b040ac2f8c65f97f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8f9ab70aae57852ddb07925059fa7a') in 0.004342 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/Canvas.prefab
-  artifactKey: Guid(4446b2e9d6fcc52428611b31914725ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Canvas.prefab using Guid(4446b2e9d6fcc52428611b31914725ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The file 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
- -> (artifact id: '1a05bdc2f28b8148434f49868ca4ecf1') in 0.118601 seconds 
-Number of asset objects unloaded after import = 186
-========================================================================
-Received Import Request.
-  Time since last request: 10.095457 seconds.
-=======
-  Time since last request: 451.253213 seconds.
+  Time since last request: 324.422274 seconds.
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(ba6de69e868c55344a13dd9fb59c33a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
@@ -282,12 +176,11 @@ The tree BirchTree-1 must use the Nature/Soft Occlusion shader. Otherwise billbo
 The tree Rock-2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Bush-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree grass01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '8762621b0e133b8544dcc6ed19353aec') in 0.139584 seconds 
+ -> (artifact id: '8e7bda5ed4b7618b5e94aff662145092') in 0.331594 seconds 
 Number of asset objects unloaded after import = 63
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
->>>>>>> Stashed changes
+  Time since last request: 0.000035 seconds.
   path: Assets/New Terrain.asset
   artifactKey: Guid(0679cfb4996fc984ca61df8be2318f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
@@ -297,9 +190,262 @@ The tree Grass-1 must use the Nature/Soft Occlusion shader. Otherwise billboardi
 The tree Rock-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Rock-2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Bush-1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-<<<<<<< Updated upstream
- -> (artifact id: 'f17c7be39cadb44abca231b9c4d3c12c') in 0.099412 seconds 
-=======
- -> (artifact id: 'f20173fe38d29c49cc47484bfd106de8') in 0.047227 seconds 
->>>>>>> Stashed changes
+ -> (artifact id: '399592838a1cc16b8da1674534d80d81') in 0.083472 seconds 
 Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 180.442541 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(4446b2e9d6fcc52428611b31914725ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Canvas.prefab using Guid(4446b2e9d6fcc52428611b31914725ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The file 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+ -> (artifact id: '1a05bdc2f28b8148434f49868ca4ecf1') in 0.132155 seconds 
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/NewLayer 1.terrainlayer
+  artifactKey: Guid(44dc16afb18cd5d4ab106531b7079f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/NewLayer 1.terrainlayer using Guid(44dc16afb18cd5d4ab106531b7079f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faef5d4e564fd4a55355f172b6e1374') in 0.140044 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/NewLayer 4.terrainlayer
+  artifactKey: Guid(84efb3147619c644b894701d13169513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/NewLayer 4.terrainlayer using Guid(84efb3147619c644b894701d13169513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496d4c90cf122fd8b9962448049d1210') in 0.026537 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/NewLayer.terrainlayer
+  artifactKey: Guid(5ac12592deec68e4ba184194dad534a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/NewLayer.terrainlayer using Guid(5ac12592deec68e4ba184194dad534a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cbeb3d14df5a4e8f83b1b88dabea40') in 0.058247 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/NewLayer 3.terrainlayer
+  artifactKey: Guid(14f58d91425c58a41b40a016fe4ff352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/NewLayer 3.terrainlayer using Guid(14f58d91425c58a41b40a016fe4ff352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5ca08ee5dc571faa962eb8b89ae7bd') in 0.065310 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/NewLayer 2.terrainlayer
+  artifactKey: Guid(bde2a46a3ab55864ca83c91d6014f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/NewLayer 2.terrainlayer using Guid(bde2a46a3ab55864ca83c91d6014f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c3d34a21131fc80b3df4f1b1d40e2a') in 0.028836 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.444441 seconds.
+  path: Assets/Scenes/main1.unity
+  artifactKey: Guid(209c8c1951128b040ac2f8c65f97f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/main1.unity using Guid(209c8c1951128b040ac2f8c65f97f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ebc0ce8e42e871811a1f8342e42957') in 0.010661 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.749237 seconds.
+  path: Assets/Scenes/main2.unity
+  artifactKey: Guid(9b7897eac35e85e468afb9ed60d2f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/main2.unity using Guid(9b7897eac35e85e468afb9ed60d2f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8768856a75a6db4700ad996b546e3fd1') in 0.015157 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.406954 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecea396df225a83554c05e5a8cce5b90') in 0.016332 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 245.145954 seconds.
+  path: Assets/Scenes/main1
+  artifactKey: Guid(37579cbae0c533e498e4177434c06770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/main1 using Guid(37579cbae0c533e498e4177434c06770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98edf5b1d2ea434b0363dfe565211679') in 0.015942 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032822 seconds.
+  path: Assets/Scenes/main1/NavMesh.asset
+  artifactKey: Guid(16d9d03f9ccffe74b9e011ec924af210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/main1/NavMesh.asset using Guid(16d9d03f9ccffe74b9e011ec924af210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cfb92e27bde36aea20c53af610d9a4') in 0.026547 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.843424 seconds.
+  path: Assets/Audio/Dana Glover - It Is You (I Have Loved).mp3
+  artifactKey: Guid(991f73b48433a194187c55cdc033977f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/Dana Glover - It Is You (I Have Loved).mp3 using Guid(991f73b48433a194187c55cdc033977f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c7453abdc0518d5cb574839bbf3754') in 0.158849 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/Halfcocked - Bad Reputation.mp3
+  artifactKey: Guid(670d214783ae1dd4e81fd4f615ef281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/Halfcocked - Bad Reputation.mp3 using Guid(670d214783ae1dd4e81fd4f615ef281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404f39892551d83cd302ef1149e75b11') in 0.041268 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/Smash Mouth - All Star.mp3
+  artifactKey: Guid(8d06d67532134c94c99b5a12f8a9dd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/Smash Mouth - All Star.mp3 using Guid(8d06d67532134c94c99b5a12f8a9dd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1074cabdac131a20c42b509c746392') in 0.028955 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/The Academy Allstars, Brand New Rockers, Pop Feast - I'm A Believer.mp3
+  artifactKey: Guid(d7a71eedfead8664d818e4316ec35eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/The Academy Allstars, Brand New Rockers, Pop Feast - I'm A Believer.mp3 using Guid(d7a71eedfead8664d818e4316ec35eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05393fff27f2d2c2c0ca9bb9db67ac51') in 0.041843 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.074337 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(7af02a02306213e4db922c2020ff1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(7af02a02306213e4db922c2020ff1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6334af8a23a508347c76494d2caa065d') in 0.004247 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.958701 seconds.
+  path: Assets/scene models/Shrek's House
+  artifactKey: Guid(e9bf7b0a93561674c99d70c5d29352dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House using Guid(e9bf7b0a93561674c99d70c5d29352dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fed9bbcc86144084448a1aeae18865e') in 0.014277 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099922 seconds.
+  path: Assets/scene models/Shrek's House/Home_blur.png
+  artifactKey: Guid(1137581e5c14436429012a1a1c31f9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_blur.png using Guid(1137581e5c14436429012a1a1c31f9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b9488c68d6598b5ab0b737306e43d3') in 0.033835 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scene models/Shrek's House/Home_grass.png
+  artifactKey: Guid(b8d3042ec1ff24b419dbb7a08dc17499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_grass.png using Guid(b8d3042ec1ff24b419dbb7a08dc17499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24771ec2bf7b73a5af4fa45f17f51532') in 0.029234 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/scene models/Shrek's House/Shreks_HouseShape.obj
+  artifactKey: Guid(8dbe5ccef041cf5459e466d00ea036c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Shreks_HouseShape.obj using Guid(8dbe5ccef041cf5459e466d00ea036c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a958db5d6f5ff042c34e086830b0850') in 0.503525 seconds 
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scene models/Shrek's House/Home_door.png
+  artifactKey: Guid(5092850b003e9a446ac1fc356889be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_door.png using Guid(5092850b003e9a446ac1fc356889be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31560b5e1ac71c651349cc856305f323') in 0.021849 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/scene models/Shrek's House/Home_combined.png
+  artifactKey: Guid(27c5e824235cc804db39da1412d73ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_combined.png using Guid(27c5e824235cc804db39da1412d73ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eebd35f5aec5a222a74bee0f607fda0') in 0.022529 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/scene models/Shrek's House/Home_planks.png
+  artifactKey: Guid(d98c0a561b4a9154fb2f6db6e18ced54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_planks.png using Guid(d98c0a561b4a9154fb2f6db6e18ced54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c1280030a6e84154d5d3aa51500bda') in 0.024721 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/scene models/Shrek's House/Home_tree2.png
+  artifactKey: Guid(b39ff755064cbc149946b4153cc9bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_tree2.png using Guid(b39ff755064cbc149946b4153cc9bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba2839d986a508588fa052f3a380b50') in 0.022766 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scene models/Shrek's House/Home_grs_alph.png
+  artifactKey: Guid(861d6f38dacea9b4099065940590f27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_grs_alph.png using Guid(861d6f38dacea9b4099065940590f27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afff3f6fe13ca64b9afc96a6ebfb565a') in 0.025493 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scene models/Shrek's House/Home_tree1.png
+  artifactKey: Guid(12d4686ba9b7db04c8a600cc520d2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_tree1.png using Guid(12d4686ba9b7db04c8a600cc520d2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eee0921d4a29b7d6064454922f94279') in 0.066660 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scene models/Shrek's House/Home_path.png
+  artifactKey: Guid(c5e377a136974c04b941db3b7189ae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_path.png using Guid(c5e377a136974c04b941db3b7189ae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a0903353c0a6a39fcc3cd7115fa310') in 0.024283 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scene models/Shrek's House/Home_rocks.png
+  artifactKey: Guid(88c59135e1b1b3e4486dc651972e877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Home_rocks.png using Guid(88c59135e1b1b3e4486dc651972e877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce659af315b578fe04a6b2d6a7f7a4d') in 0.031282 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/scene models/Shrek's House/Shrek_home.obj
+  artifactKey: Guid(f60ebeee7a450f14c9a2e1cc57396c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/scene models/Shrek's House/Shrek_home.obj using Guid(f60ebeee7a450f14c9a2e1cc57396c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b18bf68127944be0276e99fab47a1a') in 0.102521 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 12.651848 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(ee6ec2b2082758649b30a4b6adde7127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer using Guid(ee6ec2b2082758649b30a4b6adde7127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508057ef9495b4b70badd5171d1fa718') in 0.035252 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(281492221fdba864891e37e4a4c33046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer using Guid(281492221fdba864891e37e4a4c33046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4485a0b8156f9ace5e65642f60d5fc') in 0.033850 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(f0e404c2e729c584a9fde4571f2338ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer using Guid(f0e404c2e729c584a9fde4571f2338ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42115fe9dd146c6df2cc0fdc8810ab1f') in 0.037648 seconds 
+Number of asset objects unloaded after import = 2
