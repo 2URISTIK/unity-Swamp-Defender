@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public GameObject UIPanel;
+    public GameObject UIBG; // renamed
+    public GameObject crosshair;
     public Transform inventoryPanel;
     public List<InventorySlot> slots = new List<InventorySlot>();
     public bool isOpened;
@@ -13,7 +14,7 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        UIPanel.SetActive(true);
+        UIBG.SetActive(true);
     }
     void Start()
     {
@@ -25,7 +26,8 @@ public class InventoryManager : MonoBehaviour
                 slots.Add(inventoryPanel.GetChild(i).GetComponent<InventorySlot>());
             }
         }
-        UIPanel.SetActive(false);
+        UIBG.SetActive(false);
+        inventoryPanel.gameObject.SetActive(false);//new line
     }
 
     // Update is called once per frame
@@ -36,21 +38,30 @@ public class InventoryManager : MonoBehaviour
             isOpened = !isOpened;
             if (isOpened)
             {
-                UIPanel.SetActive(true);
-                
+                UIBG.SetActive(true);
+                inventoryPanel.gameObject.SetActive(true); // new line
+                // Прекрепляем курсор к середине экрана
+                Cursor.lockState = CursorLockMode.None;
+                // и делаем его невидимым
+                Cursor.visible = true;
+
             }
             else
             {
-                UIPanel.SetActive(false);
-                
+                UIBG.SetActive(false);
+                inventoryPanel.gameObject.SetActive(false); // new line
+                // Прекрепляем курсор к середине экрана
+                Cursor.lockState = CursorLockMode.Locked;
+                // и делаем его невидимым
+                Cursor.visible = false;
             }
         }
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, reachDistance))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Physics.Raycast(ray, out hit, reachDistance))
             {
                 if (hit.collider.gameObject.GetComponent<Item>() != null)
                 {
@@ -58,22 +69,22 @@ public class InventoryManager : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                 }
             }
-            Debug.DrawRay(ray.origin, ray.direction * reachDistance, Color.green);
-        }
-        else
-        {
-            Debug.DrawRay(ray.origin, ray.direction * reachDistance, Color.red);
         }
     }
     private void AddItem(ItemScriptableObject _item, int _amount)
     {
         foreach (InventorySlot slot in slots)
         {
+            // В слоте уже имеется этот предмет
             if (slot.item == _item)
             {
-                slot.amount += _amount;
-                slot.itemAmountText.text = slot.amount.ToString();
-                return;
+                if (slot.amount + _amount <= _item.maximumAmount)
+                {
+                    slot.amount += _amount;
+                    slot.itemAmountText.text = slot.amount.ToString();
+                    return;
+                }
+                break;
             }
         }
         foreach (InventorySlot slot in slots)
